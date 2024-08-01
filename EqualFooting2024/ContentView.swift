@@ -114,10 +114,13 @@ struct ContentView: View {
             .onAppear(perform: {
                 //2
                 UITabBar.appearance().unselectedItemTintColor = .lightorange
+                //FFDD95
                 //4
                 UITabBar.appearance().backgroundColor = .dblue
+                //not good contrast, switch to more darker blue #163E99
                 //5
-                UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.dorange]
+                UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.dblue] 
+                
                 //UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
                 //Above API will kind of override other behaviour and bring the default UI for TabView
                 
